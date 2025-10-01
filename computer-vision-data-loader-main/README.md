@@ -13,10 +13,11 @@ Además, se incluye un **benchmark automático** que genera un **reporte en HTML
 
 ## 📂 Estructura del repositorio
 
+
 pokemon-data-loader/
 │
 ├── data/
-│ └── pokemon-gen1-data.csv # dataset de ejemplo
+│ └── pokemon-gen1-data.csv 
 ├── src/
 │ ├── utils.py
 │ ├── loader.py
@@ -25,11 +26,11 @@ pokemon-data-loader/
 │ ├── asyncio_.py
 │ └── multiprocessing_.py
 ├── tests/
-│ └── test_benchmark.py # benchmark automático
-├── experiment.ipynb # notebook para pruebas
+│ └── test_benchmark.py
+├── experiment.ipynb
 ├── README.md
-├── pyproject.toml # definición de dependencias
-└── uv.lock # lockfile (si usas uv/pip-tools)
+├── pyproject.toml
+└── uv.lock
 
 Clona el repo y crea un entorno virtual:
 
