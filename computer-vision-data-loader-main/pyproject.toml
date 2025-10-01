@@ -1,0 +1,25 @@
+[project]
+name = "pokemon-data-loader"
+version = "0.1.0"
+description = "Comparación de estrategias de concurrencia para descargar y cargar sprites de Pokémon"
+authors = [
+    { name="Tu Nombre", email="tu.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "requests>=2.31.0",
+    "aiohttp>=3.9.5",
+    "pillow>=10.0.0",
+    "matplotlib>=3.8.0",
+    "plotly>=5.22.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
