@@ -16,20 +16,35 @@ Además, se incluye un **benchmark automático** que genera un **reporte en HTML
 
 pokemon-data-loader/
 │
+
 ├── data/
+
 │ └── pokemon-gen1-data.csv 
+
 ├── src/
+
 │ ├── utils.py
+
 │ ├── loader.py
+
 │ ├── sequential_.py
+
 │ ├── threading_.py
+
 │ ├── asyncio_.py
+
 │ └── multiprocessing_.py
+
 ├── tests/
+
 │ └── test_benchmark.py
+
 ├── experiment.ipynb
+
 ├── README.md
+
 ├── pyproject.toml
+
 └── uv.lock
 
 Clona el repo y crea un entorno virtual:
